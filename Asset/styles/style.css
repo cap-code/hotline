@@ -28,7 +28,664 @@ a{
     border-radius: 50%;
     background: #9f1af8;
 }
-@media screen and (max-width:768px) {
+
+
+a{
+    background: transparent;
+}
+
+
+@media screen and (max-width:576px){
+    #service-container{
+        background-color:#DDEEFF;
+        margin-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 820px;
+    }
+    #service-box{
+        position: relative;
+        /* display: inline-block; */
+   } 
+   #service{
+       display: block;
+       border-style: solid;
+       border-width: 3px;
+       border-color:#0B3257;
+       background-color: white;
+       max-width: 260px;
+       max-height: 130px;
+    }
+    #service-no{
+        position:absolute;
+        top:50px; 
+        margin-left: auto;
+        margin-right:auto;
+    }
+    #each-service1{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 10px;
+    }
+    #each-service2{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 10px;
+    }
+    #each-service3{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 10px;
+    }
+    #msg-box{
+        display: block;
+    }
+    #shoot-msg{
+        position:relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:220px;
+        min-height:120px;
+        top:80px;
+        z-index: 10;
+    }
+    #social{
+        position: relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:200px;
+        min-height: 100px;
+        top:50px;
+        left:30px;
+        margin-bottom: 50px;
+    }
+    
+    #contact{
+        position:relative;
+    }
+    #contact-head{
+        font-weight: 800;
+        margin-top:10%
+    }
+    #contact-us{
+        position: absolute;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        min-width: 220px;
+        min-height: 80px;
+        top:50px;
+        left:60px;
+        text-align: center;
+        z-index: 10;
+    }
+    #contact-us-form{
+      position:relative;
+      display: block;
+      background-color: white;
+      color:#0B3257;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0B3257;
+      width:250px;
+      height:auto;
+      padding-bottom: 30px;
+      top:100px;
+      text-align: center;
+    }
+    #contact-button{
+        position:relative;
+        top:100px;
+    }
+    #input-box{
+        margin-bottom: 10px;
+        width:100%;
+    }
+    #send-msg{
+        background-color: #0B3257;
+        border-radius: 0px;
+        min-width:200px;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:767.5px){
+    #help{
+        position: relative;
+        background-color: white;
+        z-index: 10;
+        height: auto;
+    }
+    #service-container{
+        background-color:#DDEEFF;
+        margin-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 650px;
+    }
+    #service-box{
+        position: relative;
+        /* display: inline-block; */
+   } 
+   #service{
+       display: block;
+       border-style: solid;
+       border-width: 3px;
+       border-color:#0B3257;
+       background-color: white;
+       max-width: 282px;
+       margin:auto;
+    }
+    #service-no{
+        position:absolute;
+        top:50px; 
+        margin-left: auto;
+        margin-right:auto;
+    }
+    #each-service1{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-left:15%;
+        margin-bottom: 10px;
+    }
+    #each-service2{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-left: 30%;
+        margin-bottom: 10px;
+    }
+    #each-service3{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+       margin-left: 15%;
+       margin-bottom: 10px;
+    }
+    #msg-box{
+        display: block;
+    }
+    #shoot-msg{
+        position:relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:275px;
+        min-height:120px;
+        top:80px;
+        z-index: 10;
+    }
+    #social{
+        position: relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:200px;
+        min-height: 100px;
+        top:50px;
+        left:70px;
+        margin-bottom: 50px;
+    }
+    
+    #contact{
+        position:relative;
+    }
+    #contact-head{
+        font-weight: 800;
+        margin-top:10%
+    }
+    #contact-us{
+        position: absolute;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        min-width: 275px;
+        min-height: 100px;
+        top:25px;
+        left:100px;
+        text-align: center;
+        z-index: 10;
+    }
+    #contact-us-form{
+      position:relative;
+      display: block;
+      background-color: white;
+      color:#0B3257;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0B3257;
+      width:300px;
+      height:auto;
+      padding-bottom: 30px;
+      top:100px;
+      text-align: center;
+    }
+    #contact-button{
+        position:relative;
+        top:100px;
+    }
+    #input-box{
+        margin-bottom: 10px;
+        width:100%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    #help{
+        position: relative;
+        border-style: solid;
+        border-color: #0556A4;
+        border-width: 2px;
+        background-color: white;
+        top:60px;
+        left:100px;
+        z-index: 10;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+    #service-container{
+        background-color:#DDEEFF;
+        margin-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 230px;
+    }
+    #service-box{
+        position: relative;
+        /* display: inline-block; */
+   } 
+   #service{
+       display: block;
+       border-style: solid;
+       border-width: 3px;
+       border-color:#0B3257;
+       background-color: white;
+       max-width: 282px;
+       margin-left:20%;
+    }
+    #service-no{
+        position:absolute;
+        top:50px; 
+    }
+    #each-service1{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service2{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service3{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #msg-box{
+        display: block;
+    }
+    #shoot-msg{
+        position:relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:275px;
+        min-height:120px;
+        top:80px;
+        z-index: 10;
+    }
+    #social{
+        position: relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:200px;
+        min-height: 100px;
+        top:50px;
+        left:70px;
+        margin-bottom: 50px;
+    }
+    
+    #contact{
+        position:relative;
+    }
+    #contact-head{
+        font-weight: 800;
+        margin-top:10%
+    }
+    #contact-us{
+        position: absolute;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        min-width: 275px;
+        min-height: 100px;
+        top:25px;
+        left:100px;
+        text-align: center;
+        z-index: 10;
+    }
+    #contact-us-form{
+      position:relative;
+      display: block;
+      background-color: white;
+      color:#0B3257;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0B3257;
+      width:300px;
+      height:auto;
+      padding-bottom: 30px;
+      top:100px;
+      text-align: center;
+    }
+    #contact-button{
+        position:relative;
+        top:100px;
+    }
+    #input-box{
+        margin-bottom: 10px;
+        width:100%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    #help{
+        position: relative;
+        border-style: solid;
+        border-color: #0556A4;
+        border-width: 2px;
+        background-color: white;
+        top:60px;
+        left:100px;
+        z-index: 10;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+    #service-container{
+        background-color:#DDEEFF;
+        margin-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 130px;
+    }
+    #service-box{
+        position: relative;
+        /* display: inline-block; */
+   } 
+   #service{
+       display: block;
+       border-style: solid;
+       border-width: 3px;
+       border-color:#0B3257;
+       background-color: white;
+       max-width: 282px;
+       margin-left:30px;
+    }
+    #service-no{
+        position:absolute;
+        top:50px;
+        left:90px; 
+    }
+    #each-service1{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service2{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service3{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #msg-box{
+        display: block;
+    }
+    #shoot-msg{
+        position:relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:275px;
+        min-height:120px;
+        top:80px;
+        z-index: 10;
+    }
+    #social{
+        position: relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:200px;
+        min-height: 100px;
+        top:50px;
+        left:70px;
+    }
+    
+    #contact{
+        position:relative;
+    }
+    #contact-head{
+        font-weight: 800;
+        margin-top:10%
+    }
+    #contact-us{
+        position: absolute;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        min-width: 275px;
+        min-height: 100px;
+        top:25px;
+        left:100px;
+        text-align: center;
+        z-index: 10;
+    }
+    #contact-us-form{
+      position:relative;
+      display: block;
+      background-color: white;
+      color:#0B3257;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0B3257;
+      width:100%;
+      height:auto;
+      padding-bottom: 30px;
+      top:100px;
+    }
+    #contact-button{
+        position:relative;
+        top:100px;
+    }
+}
+@media screen and (min-width:1200px){
+    #help{
+        position: relative;
+        border-style: solid;
+        border-color: #0556A4;
+        border-width: 2px;
+        background-color: white;
+        top:100px;
+        left:100px;
+        z-index: 10;
+    }
+    #service-container{
+        background-color:#DDEEFF;
+        margin-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 130px;
+    }
+   #service-box{
+        position: relative;
+        /* display: inline-block; */
+   } 
+   #service{
+       display: block;
+       border-style: solid;
+       border-width: 3px;
+       border-color:#0B3257;
+       background-color: white;
+       max-width: 325px;
+       margin-left:120px;
+    }
+    #service-no{
+        position:absolute;
+        top:50px;
+        left:170px; 
+    }
+    #each-service1{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service2{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #each-service3{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+    }
+    #msg-box{
+        display: block;
+    }
+    #shoot-msg{
+        position:relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:275px;
+        min-height:120px;
+        top:80px;
+        z-index: 10;
+    }
+    #social{
+        position: relative;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        max-width:200px;
+        min-height: 100px;
+        top:50px;
+        left:100px;
+    }
+    
+    #contact{
+        position:relative;
+    }
+    #contact-head{
+        font-weight: 800;
+        margin-top:10%
+    }
+    #contact-us{
+        position: absolute;
+        background-color: white;
+        color:#0B3257;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0B3257;
+        min-width: 275px;
+        min-height: 100px;
+        top:25px;
+        left:120px;
+        text-align: center;
+        z-index: 10;
+    }
+    #contact-us-form{
+      position:relative;
+      display: block;
+      background-color: white;
+      color:#0B3257;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0B3257;
+      max-width: 630px;
+      height:auto;
+      padding-bottom: 30px;
+      top:100px;
+    }
+    #contact-button{
+        position:relative;
+        top:100px;
+    }
+}
+/* @media screen and (max-width:768px) {
     #help{
         background: white;
         border-style: solid;
@@ -41,8 +698,9 @@ a{
         left:-60px;
         z-index: -2;
     }
-}
-@media screen and (min-width:768px) {
+} */
+
+/* @media screen and (min-width:768px) {
     #help{
         background: white;
         border-style: solid;
@@ -56,8 +714,9 @@ a{
         left:-60px;
         z-index: -2;
     }
-}
-@media screen and (min-width:770px){
+} */
+
+/* @media screen and (min-width:770px){
     #service{
         border-style: solid;
         border-width: 3px;
@@ -71,19 +730,26 @@ a{
          left:-100px;
          top:70px;
      }
-}
-@media screen and (max-width:770px){
+     #each-service{
+        border-style: solid;
+        border-width: 3px;
+        border-color:#0B3257;
+        background-color: white;
+        max-width:325px;
+        margin-bottom: 30px;
+    }   
+} */
+
+/* @media screen and (max-width:770px){
     #service{
         border-style: solid;
         border-width: 3px;
         border-color:#0B3257;
         background-color: white;
         left:100px;
-        /*top:10px; */
         max-width: 325px;
      }
      #service-no{
-         /* left:-100px;*/
          top:-160px;
      } 
      #each-service{
@@ -94,55 +760,9 @@ a{
         max-width:325px;
         margin-bottom: 30px;
     }
-}
+} */
 
-#each-service{
-    border-style: solid;
-    border-width: 3px;
-    border-color:#0B3257;
-    background-color: white;
-    max-width:325px;
-}
-
-#contact-us{
-    background-color: white;
-    color:#0B3257;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #0B3257;
-    max-width: 275px;
-    min-height: 100px;
-    top:20px;
-    left:80px;
-    text-align: center;
-}
-a{
-    background: transparent;
-}
-#shoot-msg{
-    background-color: white;
-    color:#0B3257;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #0B3257;
-    max-width:275px;
-    min-height:120px;
-    top:80px;
-    z-index: 10;
-}
-#social{
-    background-color: white;
-    color:#0B3257;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #0B3257;
-    max-width:200px;
-    min-height: 100px;
-    top:50px;
-    left:100px;
-}
-
-@media screen and (max-width:945px){
+/* @media screen and (max-width:945px){
     #shoot-msg{
         background-color: white;
         color:#0B3257;
@@ -185,4 +805,4 @@ a{
     #text-box{
         padding-bottom:10px;
     }
-}
+} */
