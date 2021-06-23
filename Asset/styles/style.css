@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-
+html{
+    background-color: #1B1B1B ;
+}
 *{
     font-family: 'Raleway', sans-serif !important;
-    /* background-color: #E5E5E5; */
+    background-color:#1B1B1B;
 
 }
 body{
-    background-color: #E5E5E5;
+    background-color:#1B1B1B;
 }
 a:hover{
     text-decoration: none;
@@ -36,71 +38,83 @@ a{
 
 
 @media screen and (max-width:576px){
+    .sidebar{
+        display: none;
+      }
+      #help h3{
+          display: none;
+      }
+      .optional{
+          border-style: solid;
+          border-width: 2px;
+          border-color: white;
+          background-color: #202020;
+      }
+      .optional h4{
+          color:white;
+          font-size: 30px;
+          font-weight: 800;
+          background-color: #202020;
+      }
+      .optional p{
+          color:white;
+          background-color: #202020;
+      }
     #service-container{
-        background-color:#DDEEFF;
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom: 820px;
+        background-color: #414040;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    #service-box{
-        position: relative;
-        /* display: inline-block; */
-   } 
-   #service{
-       display: block;
-       border-style: solid;
-       border-width: 3px;
-       border-color:#0B3257;
-       background-color: white;
-       max-width: 260px;
-       max-height: 130px;
-    }
-    #service-no{
-        position:absolute;
-        top:50px; 
-        margin-left: auto;
-        margin-right:auto;
-    }
-    #each-service1{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-bottom: 10px;
-    }
-    #each-service2{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-bottom: 10px;
-    }
-    #each-service3{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-bottom: 10px;
-    }
+#service h1{
+    background-color: #414040;
+    font-size: 40px;
+}
+#serviceContent{
+    background-color:#202020 ;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+#serviceContent p{
+    background-color: #202020;
+    color:white;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+#what{
+    width:100%;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+
+}
+#what h1{
+    color:white;
+    font-weight: 800;
+    font-size: 30px;
+}
+#what p{
+    color:white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
     #msg-box{
         display: block;
+        background-color: #414040;
+
     }
     #shoot-msg{
         position:relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:220px;
         min-height:120px;
         top:80px;
@@ -108,11 +122,11 @@ a{
     }
     #social{
         position: relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:200px;
         min-height: 100px;
         top:50px;
@@ -122,18 +136,22 @@ a{
     
     #contact{
         position:relative;
+        background-color: #414040;
+
     }
     #contact-head{
         font-weight: 800;
-        margin-top:10%
+        margin-top:10%;
+        background-color: #202020;
+
     }
     #contact-us{
         position: absolute;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         min-width: 220px;
         min-height: 80px;
         top:50px;
@@ -144,11 +162,11 @@ a{
     #contact-us-form{
       position:relative;
       display: block;
-      background-color: white;
-      color:#0B3257;
+      background-color: #202020;
+      color:white;
       border-style: solid;
       border-width: 2px;
-      border-color: #0B3257;
+      border-color:black;
       width:250px;
       height:auto;
       padding-bottom: 30px;
@@ -158,87 +176,118 @@ a{
     #contact-button{
         position:relative;
         top:100px;
+        background-color: #414040;
+
     }
     #input-box{
         margin-bottom: 10px;
         width:100%;
+        background-color: #202020;
+
+    }
+    #text-box{
+        background-color:#202020;
     }
     #send-msg{
-        background-color: #0B3257;
+        background-color: white;
         border-radius: 0px;
         min-width:200px;
     }
 
 }
 @media screen and (min-width:576px) and (max-width:767.5px){
+    .sidebar{
+        display: none;
+      }
+      .nav.mx-auto{
+          padding-left: 100px;
+      }
     #help{
         position: relative;
-        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        background-color:#202020;
+        color:white; 
         z-index: 10;
         height: auto;
+        width:384px;
+        margin-left:auto;
+        margin-right: auto;
     }
+    #help h3{
+        display: none;
+    }
+    #image-help{
+        padding-top: 10px;
+    }
+    .optional{
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        background-color: #202020;
+    }
+    .optional h4{
+        color:white;
+        font-size: 30px;
+        font-weight: 800;
+        background-color: #202020;
+    }
+    .optional p{
+        color:white;
+        background-color: #202020;
+    }
+
     #service-container{
-        background-color:#DDEEFF;
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom: 650px;
-    }
-    #service-box{
-        position: relative;
-        /* display: inline-block; */
-   } 
-   #service{
-       display: block;
-       border-style: solid;
-       border-width: 3px;
-       border-color:#0B3257;
-       background-color: white;
-       max-width: 282px;
-       margin:auto;
-    }
-    #service-no{
-        position:absolute;
-        top:50px; 
-        margin-left: auto;
-        margin-right:auto;
-    }
-    #each-service1{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-left:15%;
-        margin-bottom: 10px;
-    }
-    #each-service2{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-left: 30%;
-        margin-bottom: 10px;
-    }
-    #each-service3{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-       margin-left: 15%;
-       margin-bottom: 10px;
-    }
+        background-color: #414040;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+     #service h1{
+         background-color: #414040;
+         font-size: 40px;
+     }
+     #serviceContent{
+         background-color: #414040;
+     }
+     #serviceContent p{
+         background-color: #414040;
+         color:white;
+         display: block;
+         text-align: center;
+         font-weight: 700;
+         margin-bottom: 0;
+         font-size: 20px;
+     }
+     #what{
+         width:600px;
+         border-bottom-color: white;
+         border-bottom-style: solid;
+         border-bottom-width: 10px;
+ 
+     }
+     #what h1{
+         color:white;
+         font-weight: 800;
+         font-size: 30px;
+     }
+     #what p{
+         color:white;
+         font-weight: 800;
+         font-size: 18px;
+     }
+
     #msg-box{
         display: block;
+        background-color: #414040;
     }
     #shoot-msg{
         position:relative;
-        background-color: white;
-        color:#0B3257;
+        background-color:#202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:275px;
         min-height:120px;
         top:80px;
@@ -246,11 +295,11 @@ a{
     }
     #social{
         position: relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         max-width:200px;
         min-height: 100px;
         top:50px;
@@ -260,18 +309,22 @@ a{
     
     #contact{
         position:relative;
+        background-color: #414040;
+
     }
     #contact-head{
         font-weight: 800;
-        margin-top:10%
+        margin-top:10%;
+        background-color: #202020;
+
     }
     #contact-us{
         position: absolute;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         min-width: 275px;
         min-height: 100px;
         top:25px;
@@ -282,11 +335,11 @@ a{
     #contact-us-form{
       position:relative;
       display: block;
-      background-color: white;
-      color:#0B3257;
+      background-color: #202020;
+      color:white;
       border-style: solid;
       border-width: 2px;
-      border-color: #0B3257;
+      border-color: black;
       width:300px;
       height:auto;
       padding-bottom: 30px;
@@ -296,82 +349,99 @@ a{
     #contact-button{
         position:relative;
         top:100px;
+        background-color: #414040;
     }
     #input-box{
-        margin-bottom: 10px;
+        padding-bottom: 10px;
         width:100%;
+        background-color: #202020;
+    }
+    #text-box{
+        background-color:#202020;
+    }
+    #send-msg{
+        background-color: white;
     }
 
 }
-
 @media screen and (min-width:768px) and (max-width:992px){
+    .sidebar{
+      display: none;
+    }
     #help{
-        position: relative;
+        font-weight: 800;
         border-style: solid;
-        border-color: #0556A4;
+        border-color: white;
         border-width: 2px;
-        background-color: white;
-        top:60px;
-        left:100px;
-        z-index: 10;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: auto;
+        background-color:#1B1B1B;
+        color:white;
+        width:280px;
+        height:276px;
+        margin-left: auto;
+        padding-top:40px;
+    }
+    .optional{
+        display: none;
+    }
+    #subhero{
+        padding-right: 40px;
+    }
+    #image-help{
+        margin-right: auto;
+    }
+    #help h3{
+        font-size: 36px!important;
     }
     #service-container{
-        background-color:#DDEEFF;
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom: 230px;
-    }
-    #service-box{
-        position: relative;
-        /* display: inline-block; */
-   } 
-   #service{
-       display: block;
-       border-style: solid;
-       border-width: 3px;
-       border-color:#0B3257;
-       background-color: white;
-       max-width: 282px;
-       margin-left:20%;
-    }
-    #service-no{
-        position:absolute;
-        top:50px; 
-    }
-    #each-service1{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
-    #each-service2{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
-    #each-service3{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
+        background-color: #414040;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+     #service h1{
+         background-color: #414040;
+         font-size: 40px;
+     }
+     #serviceContent{
+         background-color: #414040;
+     }
+     #serviceContent p{
+         background-color: #414040;
+         color:white;
+         display: block;
+         text-align: center;
+         font-weight: 700;
+         margin-bottom: 0;
+         font-size: 20px;
+     }
+     #what{
+         width:600px;
+         border-bottom-color: white;
+         border-bottom-style: solid;
+         border-bottom-width: 10px;
+ 
+     }
+     #what h1{
+         color:white;
+         font-weight: 800;
+         font-size: 30px;
+     }
+     #what p{
+         color:white;
+         font-weight: 800;
+         font-size: 18px;
+     }
+   
     #msg-box{
         display: block;
+        background-color: #414040;
     }
     #shoot-msg{
         position:relative;
-        background-color: white;
-        color:#0B3257;
+        background-color:#202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:275px;
         min-height:120px;
         top:80px;
@@ -379,32 +449,34 @@ a{
     }
     #social{
         position: relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         max-width:200px;
         min-height: 100px;
         top:50px;
         left:70px;
         margin-bottom: 50px;
     }
-    
     #contact{
         position:relative;
+        background-color: #414040;
+
     }
     #contact-head{
         font-weight: 800;
-        margin-top:10%
+        margin-top:10%;
+        background-color: #202020;
     }
     #contact-us{
         position: absolute;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         min-width: 275px;
         min-height: 100px;
         top:25px;
@@ -415,11 +487,11 @@ a{
     #contact-us-form{
       position:relative;
       display: block;
-      background-color: white;
-      color:#0B3257;
+      background-color: #202020;
+      color:white;
       border-style: solid;
       border-width: 2px;
-      border-color: #0B3257;
+      border-color: black;
       width:300px;
       height:auto;
       padding-bottom: 30px;
@@ -429,82 +501,121 @@ a{
     #contact-button{
         position:relative;
         top:100px;
+        background-color: #414040;
     }
     #input-box{
         margin-bottom: 10px;
         width:100%;
+        background-color: #202020;
+    }
+    #text-box{
+        background-color:#202020;
+    }
+    #send-msg{
+        background-color: white;
     }
 }
-
 @media screen and (min-width:992px) and (max-width:1200px){
+    .sidebar{
+        width:5rem;
+        height:100vh;
+        position:fixed ;
+        background-color: #2A2E35;
+    }
+    .sidebar ul{
+        margin:0px;
+        padding:0px;
+        list-style-type: none;
+        background-color: #2A2E35;
+
+    }
+    .sidebar li{
+        text-decoration: none;
+        background-color: #2A2E35;
+        padding:10px;
+        padding-left: 15px;
+
+    }
+    .sidebar a{
+        text-decoration: none;
+        color:white;
+        background-color: #2A2E35;
+    }
+    .sidebar i{
+        background-color: transparent;
+        font-size:42px;
+    }
+    .nav.mx-auto{
+        display: none;
+    }
     #help{
-        position: relative;
+        font-weight: 800;
         border-style: solid;
-        border-color: #0556A4;
+        border-color: white;
         border-width: 2px;
-        background-color: white;
-        top:60px;
-        left:100px;
-        z-index: 10;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: auto;
+        background-color:#1B1B1B;
+        color:white;
+        width:480px;
+        height:333px;
+        margin-left: auto;
+        padding-top:40px;
+    }
+    #image-help{
+        margin-right: auto;
+    }
+    .optional{
+        display: none;
     }
     #service-container{
-        background-color:#DDEEFF;
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom: 130px;
-    }
-    #service-box{
-        position: relative;
-        /* display: inline-block; */
-   } 
-   #service{
-       display: block;
-       border-style: solid;
-       border-width: 3px;
-       border-color:#0B3257;
-       background-color: white;
-       max-width: 282px;
-       margin-left:30px;
-    }
-    #service-no{
-        position:absolute;
-        top:50px;
-        left:90px; 
-    }
-    #each-service1{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
-    #each-service2{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
-    #each-service3{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-    }
+        background-color: #414040;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+     #service h1{
+         background-color: #414040;
+         font-size: 60px;
+     }
+     #serviceContent{
+         background-color: #414040;
+     }
+     #serviceContent p{
+         background-color: #414040;
+         color:white;
+         display: block;
+         text-align: center;
+         font-weight: 700;
+         margin-bottom: 0;
+         font-size: 30px;
+     }
+     #what{
+         margin-left: 80px;
+         width:864px;
+         border-bottom-color: white;
+         border-bottom-style: solid;
+         border-bottom-width: 10px;
+ 
+     }
+     #what h1{
+         color:white;
+         font-weight: 800;
+         font-size: 50px;
+     }
+     #what p{
+         color:white;
+         font-weight: 800;
+         font-size: 25px;
+     }
     #msg-box{
         display: block;
+        background-color: #414040;
     }
     #shoot-msg{
         position:relative;
-        background-color: white;
-        color:#0B3257;
+        background-color:#202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:275px;
         min-height:120px;
         top:80px;
@@ -512,11 +623,11 @@ a{
     }
     #social{
         position: relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         max-width:200px;
         min-height: 100px;
         top:50px;
@@ -525,18 +636,20 @@ a{
     
     #contact{
         position:relative;
+        background-color: #414040;
     }
     #contact-head{
         font-weight: 800;
-        margin-top:10%
+        margin-top:10%;
+        background-color: #202020;
     }
     #contact-us{
         position: absolute;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         min-width: 275px;
         min-height: 100px;
         top:25px;
@@ -547,87 +660,149 @@ a{
     #contact-us-form{
       position:relative;
       display: block;
-      background-color: white;
-      color:#0B3257;
+      background-color: #202020;
+      color:white;
       border-style: solid;
       border-width: 2px;
-      border-color: #0B3257;
+      border-color: black;
       width:100%;
       height:auto;
       padding-bottom: 30px;
       top:100px;
     }
+    #input-box{
+        background-color: #202020;
+    }
+    #text-box{
+        background-color:#202020;
+    }
     #contact-button{
         position:relative;
         top:100px;
+        background-color: #414040;
+
+    }
+    #send-msg{
+        background-color: white;
+        width:566px;
+    }
+    footer{
+        padding-left: 90px;
+    }
+    #contactContainer{
+        padding-left: 90px;
+    }
+    #whatfor{
+        padding-left: 90px;
+    }
+    #heroContainer{
+       padding-left: 90px;
+    }
+    #subhero{
+        padding-left: 90px;
     }
 }
 @media screen and (min-width:1200px){
+    .sidebar{
+        width:5rem;
+        height:100vh;
+        position:fixed ;
+        background-color: #2A2E35;
+    }
+    .sidebar ul{
+        margin:0px;
+        padding:0px;
+        list-style-type: none;
+        background-color: #2A2E35;
+
+    }
+    .sidebar li{
+        text-decoration: none;
+        background-color: #2A2E35;
+        padding:10px;
+        padding-left: 15px;
+
+    }
+    .sidebar a{
+        text-decoration: none;
+        color:white;
+        background-color: #2A2E35;
+    }
+    .sidebar i{
+        background-color: transparent;
+        font-size:42px;
+    }
+    .nav.mx-auto{
+        display: none;
+    }
     #help{
-        position: relative;
+        font-weight: 800;
         border-style: solid;
-        border-color: #0556A4;
+        border-color: white;
         border-width: 2px;
-        background-color: white;
-        top:100px;
-        left:100px;
-        z-index: 10;
+        background-color:#1B1B1B;
+        color:white;
+        width:526px;
+        height:333px;
+        margin-left: auto;
+        padding-top:40px;
+    }
+    #image-help{
+     margin-right: auto;
+    }
+    .optional{
+        display: none;
     }
     #service-container{
-        background-color:#DDEEFF;
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom: 130px;
+       background-color: #414040;
+       padding-top: 50px;
+       padding-bottom: 50px;
     }
-   #service-box{
-        position: relative;
-        /* display: inline-block; */
-   } 
-   #service{
-       display: block;
-       border-style: solid;
-       border-width: 3px;
-       border-color:#0B3257;
-       background-color: white;
-       max-width: 325px;
-       margin-left:120px;
+    #service h1{
+        background-color: #414040;
+        font-size: 60px;
     }
-    #service-no{
-        position:absolute;
-        top:50px;
-        left:170px; 
+    #serviceContent{
+        background-color: #414040;
     }
-    #each-service1{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
+    #serviceContent p{
+        background-color: #414040;
+        color:white;
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 30px;
     }
-    #each-service2{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
+    #what{
+        margin-left: 80px;
+        width:864px;
+        border-bottom-color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 10px;
+
     }
-    #each-service3{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
+    #what h1{
+        color:white;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    #what p{
+        color:white;
+        font-weight: 800;
+        font-size: 25px;
     }
     #msg-box{
         display: block;
+        background-color: #414040;
     }
     #shoot-msg{
         position:relative;
-        background-color: white;
-        color:#0B3257;
+        background-color:#202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color: black;
         max-width:275px;
         min-height:120px;
         top:80px;
@@ -635,11 +810,11 @@ a{
     }
     #social{
         position: relative;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         max-width:200px;
         min-height: 100px;
         top:50px;
@@ -648,18 +823,20 @@ a{
     
     #contact{
         position:relative;
+        background-color: #414040;
     }
     #contact-head{
         font-weight: 800;
-        margin-top:10%
+        margin-top:10%;
+        background-color: #202020;
     }
     #contact-us{
         position: absolute;
-        background-color: white;
-        color:#0B3257;
+        background-color: #202020;
+        color:white;
         border-style: solid;
         border-width: 2px;
-        border-color: #0B3257;
+        border-color:black;
         min-width: 275px;
         min-height: 100px;
         top:25px;
@@ -670,139 +847,47 @@ a{
     #contact-us-form{
       position:relative;
       display: block;
-      background-color: white;
-      color:#0B3257;
+      background-color: #202020;
+      color:white;
       border-style: solid;
       border-width: 2px;
-      border-color: #0B3257;
+      border-color: black;
       max-width: 630px;
       height:auto;
       padding-bottom: 30px;
       top:100px;
     }
+    #input-box{
+        background-color: #202020;
+    }
+    #text-box{
+        background-color:#202020;
+    }
     #contact-button{
         position:relative;
         top:100px;
+        background-color: #414040;
+    }
+    #send-msg{
+        background-color: white;
+        width:566px;
+    }
+    footer{
+        padding-left: 90px;
+    }
+    #contactContainer{
+        padding-left: 90px;
+    }
+    #whatfor{
+        padding-left: 90px;
+    }
+    #heroContainer{
+       padding-left: 90px;
     }
 }
-/* @media screen and (max-width:768px) {
-    #help{
-        background: white;
-        border-style: solid;
-        border-color:#0556A4;
-        border-width: 3px;
-        top:90px;
-        left:50px;
-    }
-    #image-help{
-        left:-60px;
-        z-index: -2;
-    }
-} */
 
-/* @media screen and (min-width:768px) {
-    #help{
-        background: white;
-        border-style: solid;
-        border-color:#0556A4;
-        border-width: 3px;
-        min-width:430px;
-        top:100px;
-        left:50px;
-    }
-    #image-help{
-        left:-60px;
-        z-index: -2;
-    }
-} */
 
-/* @media screen and (min-width:770px){
-    #service{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        left:100px;
-        top:10px;
-        max-width: 325px;
-     }
-     #service-no{
-         left:-100px;
-         top:70px;
-     }
-     #each-service{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-bottom: 30px;
-    }   
-} */
+ 
 
-/* @media screen and (max-width:770px){
-    #service{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        left:100px;
-        max-width: 325px;
-     }
-     #service-no{
-         top:-160px;
-     } 
-     #each-service{
-        border-style: solid;
-        border-width: 3px;
-        border-color:#0B3257;
-        background-color: white;
-        max-width:325px;
-        margin-bottom: 30px;
-    }
-} */
 
-/* @media screen and (max-width:945px){
-    #shoot-msg{
-        background-color: white;
-        color:#0B3257;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #0B3257;
-        max-width:275px;
-        min-height:120px;
-        top:80px;
-        z-index: 10;
-    }
-    #social{
-        background-color: white;
-        color:#0B3257;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #0B3257;
-        max-width:200px;
-        min-height: 100px;
-        top:50px;
-        left:100px;
-        margin-bottom: 40px;
-    }  
-    #contact-us{
-        background-color: white;
-        color:#0B3257;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #0B3257;
-        max-width: 275px;
-        min-height: 100px;
-        top:20px;
-        left:80px;
-        text-align: center;
-    }
-    #input-box{
-        text-align: center;
-        padding:3px;
-    }
-    #text-box{
-        padding-bottom:10px;
-    }
-} */
+
