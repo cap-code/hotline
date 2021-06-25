@@ -14,9 +14,6 @@ body{
 a:hover{
     text-decoration: none;
 }
-a{
-    background-color: #E5E5E5;
-}
 #three-d{
   display: inline-block;
   background-color:rgb(246, 192, 16);
@@ -35,6 +32,9 @@ a{
 a{
     background: transparent;
 }
+.sidebar a:hover{
+    color:#b9b9b9;
+}
 
 
 @media screen and (max-width:576px){
@@ -43,6 +43,9 @@ a{
       }
       #help h3{
           display: none;
+      }
+      #image-help{
+          padding-top: 20px;
       }
       .optional{
           border-style: solid;
