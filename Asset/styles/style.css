@@ -41,6 +41,9 @@ a{
     .sidebar{
         display: none;
       }
+      .nav.mx-auto{
+        padding-left: 50px;
+    }
       #help h3{
           display: none;
       }
